@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Álvaro Tech Portfolio | Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="page is-entering">
+    <header class="site-header shell">
+      <nav class="top-nav" aria-label="Main navigation">
+        <div class="top-nav-links">
+          <a class="top-nav-link" href="index.html" data-transition>Home</a>
+          <a class="top-nav-link" href="about.html" data-transition>About</a>
+          <button class="theme-toggle" type="button" data-theme-toggle aria-label="Theme mode: system" aria-pressed="mixed">◐</button>
+        </div>
+      </nav>
+
+      <section class="profile-banner compact" aria-label="Profile banner">
+        <img
+          class="profile-photo"
+          src="img/perfil.jpeg"
+        />
+        <div class="profile-copy">
+          <p class="profile-kicker">Project detail</p>
+          <h1 class="profile-name">Selected Work</h1>
+        </div>
+      </section>
+    </header>
+
+    <main class="shell project-main" data-project-detail></main>
+
+    <footer class="site-footer shell" aria-label="Footer">
+      <p class="footer-copy">&copy; 2026 Álvaro Arnaiz Burgos. All rights reserved.</p>
+      <ul class="footer-links" aria-label="Contact links">
+        <li><a href="https://www.linkedin.com/in/%C3%A1lvaro-arn%C3%A1iz-burgos" target="_blank" rel="noreferrer">LinkedIn</a></li>
+        <li><a href=files/CV.pdf target="_blank" rel="noreferrer">CV</a></li>
+        <li><a href="mailto:alvaro.arnaiz@email.com">Email</a></li>
+      </ul>
+    </footer>
+
+    <script src="js/projects-data.js" defer></script>
+    <script src="js/theme.js" defer></script>
+    <script src="js/transitions.js" defer></script>
+    <script src="js/project.js" defer></script>
+  </body>
+</html>
