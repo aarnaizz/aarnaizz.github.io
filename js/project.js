@@ -87,7 +87,7 @@
     "<ul class='project-highlights'>" +
     highlights +
     "</ul>" +
-    "<a class='project-back-link' href='index.html' data-transition>Back to home</a>" +
+    "<a class='project-back-link' href='./' data-transition>Back to home</a>" +
     "</div>" +
     "<figure class='project-image-large'><img src='" +
     selected.image +
