@@ -1,8 +1,18 @@
 (function pageTransitions() {
+  function clearTransitionState() {
+    document.body.classList.remove("is-entering");
+    document.body.classList.remove("is-leaving");
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     window.requestAnimationFrame(function () {
-      document.body.classList.remove("is-entering");
+      clearTransitionState();
     });
+  });
+
+  window.addEventListener("pageshow", function () {
+    // pageshow also fires when coming from bfcache via Back/Forward.
+    clearTransitionState();
   });
 
   document.addEventListener("click", function (event) {
