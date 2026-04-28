@@ -164,7 +164,7 @@ window.PROJECTS = [
   {
     slug: "wireless-headphones-business",
     title: "Wireless Headphones Business",
-    category: ["Finance", "Apps"],
+    category: ["Finance"],
     date: "OCTOBER 2019",
     description: [
       "When the airpods were released, everyone wanted to have them, but as every apple product, they were quite expensive. I saw an opportunity to create a small business with my brother selling wireless headphones at a more affordable price.",
