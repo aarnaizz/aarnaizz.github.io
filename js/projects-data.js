@@ -25,8 +25,9 @@ window.PROJECTS = [
     category: ["Apps"],
     date: "APRIL 2026",
     description: [
-      "This a simple app I developed for a friend that has a barber shop. The app allows customers to book appointments, while the barber can manage the schedule. It was a fun project that allowed me to apply my app development skills to create a useful tool for a local business.",
-      "I got to apply my knowledge in ReactJS and Supabase, but the most interesting part was the power of AI. I used Antigravity to generate the UI of the app, and I was amazed by how good it was. It saved me a lot of time and effort in designing the app, and it showed me how AI can be a powerful tool for developers."
+      "This a simple app I developed for a friend that has a barber shop (link <a href='https://estudiantines-barbershop.vercel.app/' target='_blank' rel='noreferrer'>here</a>). The app allows customers to book appointments, while the barber can manage the schedule. It was a fun project that allowed me to apply my app development skills to create a useful tool for a local business.",
+      "I got to apply my knowledge in ReactJS and Supabase, but the most interesting part was the power of AI. I used Antigravity to generate the UI of the app, and I was amazed by how good it was. It saved me a lot of time and effort in designing the app, and it showed me how AI can be a powerful tool for developers.",
+      "Right now, the world is moving towards AI-assisted development and a new way of programming, so I want to make sure I am at the forefront of this change and I can take advantage of these tools to create better and more efficient applications, thanks for example to MCP servers, Claude Code and many other tools I am now learning."
     ].join("<br><br>"),
     highlights: [
       "Built booking and schedule management for a local barber.",
