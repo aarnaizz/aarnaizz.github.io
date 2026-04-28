@@ -288,7 +288,7 @@ window.PROJECTS = [
       "Learned practical reliability and troubleshooting lessons."
     ],
     image:
-      "img/watering.jpg",
+      "img/watering.png",
     color: "blue",
     overlay: "none"
   },
